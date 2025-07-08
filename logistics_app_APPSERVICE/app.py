@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET", "POST"])                    # Currently hosted at https://ext-nsa-webapp-stg.azurewebsites.net/
+@app.route("/", methods=["GET", "POST"])                    # Currently hosted
 def index():
     result = ""
     if request.method == "POST":
